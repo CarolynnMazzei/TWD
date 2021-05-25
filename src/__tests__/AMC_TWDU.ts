@@ -1,7 +1,6 @@
 import { By, until, WebDriver } from "selenium-webdriver";
 
 
-
 export class TWDU {
   driver: WebDriver;
   wait: number = 2500;
@@ -131,7 +130,6 @@ export class TWDU {
   }
 
 
-
   async getHeaderText(name: string) {
     let data = [];
 
@@ -147,4 +145,5 @@ export class TWDU {
     return data;
   }
  
+  
 }

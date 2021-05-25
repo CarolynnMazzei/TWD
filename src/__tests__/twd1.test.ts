@@ -56,6 +56,7 @@ test("click on Back button", async () => {
   expect(data[4]).toContain("Gabriel Stokes"); 
 });
 
+
 test("search/type-in Character Glenn and check text", async () => {
   await page.searchCharacter();
 

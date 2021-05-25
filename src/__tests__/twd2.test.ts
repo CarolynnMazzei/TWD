@@ -10,7 +10,6 @@ const page = new TWDU(driver);
 let data;
 
 
-
 test("go to Walking Dead Shop store and check headers", async () => {
   await page.navigate("https://thewalkingdeadshop.amc.com/");
 
